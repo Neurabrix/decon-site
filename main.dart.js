@@ -45594,41 +45594,41 @@ $3(a,b,c){var s=b.b.gbZ(),r=this.a.a,q=r.c
 return A.aG3("assets/images/decon-logo.png","DECON",r.e,c,s,q)},
 $S:598}
 A.aul.prototype={
-$2(a,b){return new A.q1(this.a.a.c,"https://neurabrix.github.io/decon-site",null)},
+$2(a,b){return new A.q1(this.a.a.c,"https://decon.neurabrix.co",null)},
 $S:613}
 A.aum.prototype={
-$2(a,b){return new A.r7(this.a.a.c,"https://neurabrix.github.io/decon-site",null)},
+$2(a,b){return new A.r7(this.a.a.c,"https://decon.neurabrix.co",null)},
 $S:614}
 A.aun.prototype={
-$2(a,b){return new A.rD(this.a.a.d,"https://neurabrix.github.io/decon-site",null)},
+$2(a,b){return new A.rD(this.a.a.d,"https://decon.neurabrix.co",null)},
 $S:615}
 A.auo.prototype={
 $2(a,b){var s=this.a.a
-return new A.rd(s.c,s.d,"decon-2027","decon-standard","https://neurabrix.github.io/decon-site",null)},
+return new A.rd(s.c,s.d,"decon-2027","decon-standard","https://decon.neurabrix.co",null)},
 $S:616}
 A.aup.prototype={
 $2(a,b){var s=this.a.a
-return new A.wN(s.c,s.e,"https://neurabrix.github.io/decon-site",null)},
+return new A.wN(s.c,s.e,"https://decon.neurabrix.co",null)},
 $S:621}
 A.auq.prototype={
 $2(a,b){var s=this.a.a
-return new A.wg(s.c,s.e,"https://neurabrix.github.io/decon-site",null)},
+return new A.wg(s.c,s.e,"https://decon.neurabrix.co",null)},
 $S:629}
 A.aur.prototype={
-$2(a,b){return new A.tE(this.a.a.e,"https://neurabrix.github.io/decon-site",null)},
+$2(a,b){return new A.tE(this.a.a.e,"https://decon.neurabrix.co",null)},
 $S:669}
 A.aus.prototype={
-$2(a,b){return new A.vx(this.a.a.c,"https://neurabrix.github.io/decon-site",null)},
+$2(a,b){return new A.vx(this.a.a.c,"https://decon.neurabrix.co",null)},
 $S:320}
 A.aut.prototype={
 $2(a,b){var s=this.a,r=s.a.c,q=b.r.h(0,"slug")
 q.toString
 s.a.toString
-return new A.vy(r,q,"https://neurabrix.github.io/decon-site",null)},
+return new A.vy(r,q,"https://decon.neurabrix.co",null)},
 $S:691}
 A.auv.prototype={
 $2(a,b){var s=b.b.gbZ(),r=this.a.a,q=r.c
-return A.aG3("assets/images/decon-logo.png","DECON",r.e,new A.BT("https://neurabrix.github.io/decon-site",null),s,q)},
+return A.aG3("assets/images/decon-logo.png","DECON",r.e,new A.BT("https://decon.neurabrix.co",null),s,q)},
 $S:687}
 A.a1u.prototype={}
 A.aml.prototype={
@@ -45636,7 +45636,7 @@ L3(a){if(!A.c8(["https","http","mailto","tel"],t.N).n(0,a.gdL()))return A.dF(!1,
 return A.aDW(a,B.IV,"_blank")}}
 A.a1C.prototype={
 pJ(){var s,r
-for(s=t.N,s=A.ar(["EVENT_PLATFORM_BASE_URL",u.x,"EVENT_PLATFORM_TENANT","decon.local","EVENT_PLATFORM_EVENT_ID","decon-2027","EVENT_PLATFORM_REGISTRATION_TYPE_ID","decon-standard","SITE_BASE_URL","https://neurabrix.github.io/decon-site","BRAND_NAME","DECON","BRAND_LOGO_ASSET","assets/images/decon-logo.png"],s,s),s=new A.cH(s,A.l(s).i("cH<1,2>")).ga0(0);s.p();){r=s.d
+for(s=t.N,s=A.ar(["EVENT_PLATFORM_BASE_URL",u.x,"EVENT_PLATFORM_TENANT","decon.local","EVENT_PLATFORM_EVENT_ID","decon-2027","EVENT_PLATFORM_REGISTRATION_TYPE_ID","decon-standard","SITE_BASE_URL","https://decon.neurabrix.co","BRAND_NAME","DECON","BRAND_LOGO_ASSET","assets/images/decon-logo.png"],s,s),s=new A.cH(s,A.l(s).i("cH<1,2>")).ga0(0);s.p();){r=s.d
 if(B.c.eO(r.b).length===0)throw A.i(A.b1(r.a+" must not be empty."))}}}
 A.a6t.prototype={
 oc(a){return this.agn(a)},
