@@ -1,11 +1,11 @@
 {
-    "name": "DECON 2027",
+    "name": "DECON",
     "short_name": "DECON",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#FFF8EA",
-    "theme_color": "#4A153B",
-    "description": "Programme, faculty, venue and registration for DECON 2027.",
+    "background_color": "#F8F3E8",
+    "theme_color": "#082A2E",
+    "description": "Programme, faculty, participation and visitor information for DECON.",
     "orientation": "any",
     "prefer_related_applications": false,
     "icons": [
