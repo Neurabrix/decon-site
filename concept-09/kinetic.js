@@ -1,0 +1,1 @@
+const buttons=document.querySelectorAll('.day-toggle button'),rows=document.querySelectorAll('.programme-table article');buttons.forEach(button=>button.addEventListener('click',()=>{buttons.forEach(b=>b.classList.remove('active'));button.classList.add('active');const day=button.dataset.day;rows.forEach(row=>row.hidden=day!=='all'&&row.dataset.day!==day)}));

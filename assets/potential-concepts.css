@@ -1,0 +1,299 @@
+/* Responsive compatibility for the three user-supplied DECON 2026 concepts. */
+
+@media (max-width: 430px) {
+  .potential-08 .name-wall {
+    grid-template-columns: 1fr;
+  }
+
+  .potential-09 .marquee {
+    display: none;
+  }
+
+  .potential-09 .signal h2,
+  .potential-09 .dash-head h2,
+  .potential-09 .faculty-intro h2,
+  .potential-09 .next h2 {
+    font-size: 44px;
+  }
+
+  .potential-09 .signal-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 180px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  body.potential-07,
+  body.potential-08,
+  body.potential-09 {
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: clip;
+  }
+
+  body.potential-07 *,
+  body.potential-08 *,
+  body.potential-09 * {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .potential-07 .nav {
+    gap: 4px;
+    padding: 0 6px;
+  }
+
+  .potential-07 .brand {
+    font-size: 0;
+  }
+
+  .potential-07 .brand > span {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .potential-07 .brand small,
+  .potential-07 .orbit,
+  .potential-07 .scroll-cue {
+    display: none;
+  }
+
+  .potential-07 .menu-button {
+    margin-left: auto;
+  }
+
+  .potential-07 .hero-copy {
+    max-width: calc(100vw - 12px);
+    margin: 1rem 6px 12rem;
+  }
+
+  .potential-07 .hero h1 {
+    font-size: 34px;
+  }
+
+  .potential-07 .hero-actions,
+  .potential-07 .event-card,
+  .potential-07 .trust-strip,
+  .potential-07 .topic-grid,
+  .potential-07 .faculty-grid,
+  .potential-07 .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .potential-07 .hero-actions {
+    display: grid;
+  }
+
+  .potential-07 .event-card {
+    display: grid;
+    left: 6px;
+    right: 6px;
+  }
+
+  .potential-07 .section,
+  .potential-07 footer {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .potential-07 .session {
+    grid-template-columns: 36px minmax(0, 1fr) 18px;
+    gap: 4px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .potential-07 .filter-bar {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px;
+    overflow: hidden;
+  }
+
+  .potential-07 .filter {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .potential-07 .session-toggle {
+    width: 18px;
+    height: 18px;
+  }
+
+  .potential-08 header {
+    padding: 0 6px;
+  }
+
+  .potential-08 .edition,
+  .potential-08 .seal {
+    display: none;
+  }
+
+  .potential-08 .hero {
+    padding: 2rem 6px 3rem;
+  }
+
+  .potential-08 .hero-kicker,
+  .potential-08 .date-block,
+  .potential-08 .hero figcaption {
+    display: block;
+  }
+
+  .potential-08 .hero h1 {
+    margin: 3rem 0 2rem;
+    font-size: 44px;
+  }
+
+  .potential-08 .hero h1 em {
+    margin-left: 0;
+  }
+
+  .potential-08 .date-block p {
+    margin-top: 1rem;
+  }
+
+  .potential-08 .hero figure img {
+    height: 120px;
+  }
+
+  .potential-08 .manifesto,
+  .potential-08 .programme,
+  .potential-08 .voices,
+  .potential-08 .interest,
+  .potential-08 .venue-copy,
+  .potential-08 footer {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .potential-08 .manifesto h2,
+  .potential-08 .section-intro h2,
+  .potential-08 .voices h2,
+  .potential-08 .venue h2,
+  .potential-08 .interest h2 {
+    font-size: 32px;
+  }
+
+  .potential-08 .agenda article,
+  .potential-08 .name-wall,
+  .potential-08 footer {
+    grid-template-columns: 1fr;
+  }
+
+  .potential-08 .venue-name {
+    font-size: 30vw;
+  }
+
+  .potential-09 header {
+    padding: 0 6px;
+  }
+
+  .potential-09 .top-cta,
+  .potential-09 .marquee,
+  .potential-09 .coordinate {
+    display: none;
+  }
+
+  .potential-09 .hero {
+    padding: 100px 6px 12px;
+  }
+
+  .potential-09 .hero-type {
+    margin-top: 16vh;
+    font-size: 30vw;
+  }
+
+  .potential-09 .hero-type span:nth-child(2) {
+    margin-left: 10vw;
+  }
+
+  .potential-09 .hero-type sup {
+    right: -12vw;
+  }
+
+  .potential-09 .hero-bottom {
+    left: 6px;
+    right: 6px;
+  }
+
+  .potential-09 .signal,
+  .potential-09 .dashboard,
+  .potential-09 .faculty,
+  .potential-09 .next,
+  .potential-09 footer {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .potential-09 .signal h2,
+  .potential-09 .dash-head h2,
+  .potential-09 .faculty-intro h2,
+  .potential-09 .next h2 {
+    font-size: 30px;
+  }
+
+  .potential-09 .signal-grid,
+  .potential-09 .stats,
+  .potential-09 footer {
+    grid-template-columns: 1fr;
+  }
+
+  .potential-09 .programme-table article {
+    grid-template-columns: 36px minmax(0, 1fr);
+    gap: 6px;
+    padding: 6px;
+  }
+
+  .potential-09 .programme-table time,
+  .potential-09 .programme-table h3 {
+    font-size: 12px;
+  }
+
+  .potential-09 .day-toggle {
+    flex-wrap: wrap;
+  }
+
+  .potential-09 .faculty-stack article {
+    grid-template-columns: 36px minmax(0, 1fr);
+    gap: 6px;
+  }
+
+  .potential-09 .faculty-stack article > b {
+    width: 34px;
+    height: 34px;
+  }
+
+  .potential-09 .faculty-stack article > i {
+    display: none;
+  }
+
+  .potential-09 .next-ring {
+    width: 120px;
+    height: 120px;
+  }
+
+  .potential-09 .next-ring::after {
+    width: 72px;
+    height: 72px;
+  }
+
+  .potential-07 .concept-switcher,
+  .potential-08 .concept-switcher,
+  .potential-09 .concept-switcher {
+    right: 2px;
+    bottom: 2px;
+    padding: 2px;
+    gap: 1px;
+  }
+
+  .potential-07 .concept-switcher a,
+  .potential-08 .concept-switcher a,
+  .potential-09 .concept-switcher a {
+    width: 24px;
+    height: 24px;
+  }
+}
