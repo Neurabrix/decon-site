@@ -1,0 +1,35 @@
+/* Light clinical theme: preserve the concept's structured layout without dark section bands. */
+.intro {
+  background: #eaf4f6;
+  color: var(--ink);
+}
+
+.intro .eyebrow {
+  color: var(--blue);
+}
+
+.intro-copy {
+  color: var(--muted);
+}
+
+footer {
+  background: #edf3f5;
+  color: #536572;
+  border-top: 1px solid var(--line);
+}
+
+footer a {
+  color: var(--ink);
+}
+
+.copyright {
+  border-top-color: #cbd8de;
+}
+
+.card-grid span {
+  color: #087f91;
+}
+
+.updates > div > p:not(.eyebrow) {
+  color: #52636e;
+}

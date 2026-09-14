@@ -1,0 +1,122 @@
+/* Light clinical theme: retain the atlas energy with high-impact accents on pale surfaces. */
+body {
+  background: #fbfcf8;
+  color: #17201e;
+}
+
+.site-header {
+  background: #fff;
+  color: #17201e;
+  border-bottom-color: #d8dfda;
+}
+
+.brand,
+nav a {
+  color: #17201e;
+}
+
+.hero {
+  background: radial-gradient(circle at 77% 32%, rgba(73, 217, 210, 0.2), transparent 20%), radial-gradient(circle at 60% 75%, rgba(84, 103, 255, 0.12), transparent 25%), #f7faf6;
+  color: #17201e;
+}
+
+.hero::before {
+  border-color: #b9c7c1;
+  box-shadow: 0 0 0 65px transparent, 0 0 0 66px #dce7e2, 0 0 0 130px transparent, 0 0 0 131px #edf3ef;
+}
+
+.hero-copy > p,
+.coordinate {
+  color: #27736e;
+}
+
+.hero h1 em {
+  color: #4f6b00;
+}
+
+.hero-meta span {
+  color: #62716c;
+}
+
+.hero-meta b {
+  color: #17201e;
+}
+
+.signals {
+  background: #fff;
+  color: #17201e;
+}
+
+.signals .eyebrow,
+.signal-grid b {
+  color: #3e665d;
+}
+
+.signal-grid,
+.signal-grid article {
+  border-color: #cdd8d3;
+}
+
+.signal-grid article {
+  background: #f8faf8;
+}
+
+.signal-grid p {
+  color: #65736e;
+}
+
+.day-panel .wide {
+  background: #e5ebe7;
+  color: #17201e;
+}
+
+.day-panel .wide small {
+  color: #4b5c56;
+}
+
+.day-panel .c1 small,
+.day-panel .c2 small {
+  color: #243531;
+}
+
+.day-panel {
+  background: #d3dcd7;
+  border-color: #d3dcd7;
+}
+
+.visit {
+  background: #e7ebff;
+  color: #17201e;
+}
+
+.people-copy .eyebrow {
+  color: #174c48;
+}
+
+.visit .eyebrow {
+  color: #4054bf;
+}
+
+.visit a {
+  color: #263aa7;
+}
+
+footer {
+  background: #f2f6f3;
+  color: #65736e;
+  border-top: 1px solid #d8dfda;
+}
+
+footer a {
+  color: #17201e;
+}
+
+@media (max-width: 950px) {
+  nav {
+    background: #fff;
+  }
+
+  .menu {
+    color: #17201e;
+  }
+}

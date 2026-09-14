@@ -1,0 +1,175 @@
+/* Light clinical theme: retain photographic depth and rounded pathways on bright surfaces. */
+.nav {
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--ink);
+  border-bottom-color: var(--line);
+}
+
+.brand,
+.nav nav a {
+  color: var(--ink);
+}
+
+.nav nav a:hover,
+.brand small,
+.brand > span {
+  color: #167967;
+}
+
+.menu-button {
+  color: var(--ink);
+}
+
+.menu-button span {
+  background: var(--ink) !important;
+}
+
+.hero {
+  background: #eef5f4;
+  color: var(--ink);
+}
+
+.hero-shade {
+  background: linear-gradient(90deg, rgba(247, 251, 250, 0.98) 0%, rgba(247, 251, 250, 0.9) 38%, rgba(247, 251, 250, 0.34) 75%), linear-gradient(0deg, rgba(247, 251, 250, 0.9), transparent 50%);
+}
+
+.mesh {
+  opacity: 0.3;
+  background-image: linear-gradient(#245cff12 1px, transparent 1px), linear-gradient(90deg, #245cff12 1px, transparent 1px);
+}
+
+.eyebrow,
+.lede,
+.scroll-cue {
+  color: #485773;
+}
+
+.hero h1 em {
+  color: #167967;
+}
+
+.button.ghost {
+  border-color: #71809b;
+  color: var(--ink);
+}
+
+.topics-section {
+  background: #edf4f8;
+  color: var(--ink);
+}
+
+.section-tag.light {
+  color: var(--blue);
+}
+
+.section-heading > p,
+.faculty-head > p,
+.programme-title > p {
+  color: #59667e;
+}
+
+.topic-card {
+  background: #fff;
+  border-color: #d5dfe7;
+  box-shadow: 0 12px 35px #14264a0d;
+}
+
+.topic-card p {
+  color: #5e6980;
+}
+
+.faculty {
+  background: #eef2fb;
+  color: var(--ink);
+}
+
+.faculty::before {
+  color: #245cff08;
+}
+
+.faculty h2 span {
+  color: var(--blue);
+}
+
+.faculty-link {
+  color: var(--ink);
+  border-bottom-color: #93a1b6;
+}
+
+.path.selected {
+  background: #e5f3f0;
+  color: var(--ink);
+  border: 1px solid #b9ddd5;
+}
+
+.path.selected p {
+  color: #59667e;
+}
+
+.path.selected li {
+  border-color: #c9dfda;
+}
+
+.time small,
+.room,
+.path-top span,
+.footer-grid span {
+  color: #536078;
+}
+
+.programme-foot p,
+.path p {
+  color: #5b657b;
+}
+
+.person .monogram {
+  color: var(--ink);
+  opacity: 1;
+}
+
+.venue {
+  background: linear-gradient(110deg, #e5f4f0, #eef3fb);
+  color: var(--ink);
+}
+
+.venue h2 span,
+.venue-code {
+  color: #167967;
+}
+
+.venue-copy > p:not(.section-tag) {
+  color: #59667e;
+}
+
+.venue-meta span {
+  color: #66738a;
+}
+
+.venue::after {
+  border-color: #48a99544;
+  box-shadow: 0 0 0 80px #48a9950d, 0 0 0 160px #48a99508;
+}
+
+footer {
+  background: #eef3f7;
+  color: var(--ink);
+  border-top: 1px solid var(--line);
+}
+
+.footer-top,
+.footer-bottom {
+  border-color: #cdd7e0;
+}
+
+.footer-grid a,
+.footer-grid p,
+.footer-bottom,
+.footer-bottom a {
+  color: #59667e;
+}
+
+@media (max-width: 700px) {
+  .hero-shade {
+    background: linear-gradient(90deg, rgba(247, 251, 250, 0.98), rgba(247, 251, 250, 0.72)), linear-gradient(0deg, rgba(247, 251, 250, 0.94), transparent 70%);
+  }
+}

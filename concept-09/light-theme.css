@@ -1,0 +1,111 @@
+/* Light clinical theme: retain kinetic typography and signal colors on a bright canvas. */
+body {
+  background: #fbfcf8;
+  color: #111827;
+}
+
+header {
+  background: rgba(255, 255, 255, 0.94);
+  border-bottom-color: #d8dee7;
+  color: #111827;
+}
+
+.top-cta {
+  background: #e8ecff;
+  color: #111827;
+}
+
+.hero {
+  background: radial-gradient(circle at 73% 53%, #dce3ff 0 11%, transparent 12%), radial-gradient(circle at 73% 53%, transparent 0 21%, #9eb0ff66 22%, transparent 23%), #f8faf8;
+  color: #111827;
+}
+
+.hero::after {
+  background-image: linear-gradient(#14213d0c 1px, transparent 1px), linear-gradient(90deg, #14213d0c 1px, transparent 1px);
+}
+
+.hero-type span:nth-child(2),
+.signal h2 em,
+.faculty-intro h2 em,
+.faculty-stack article > b {
+  color: #4e7100;
+}
+
+.pulse-line i {
+  background: #8ebd1d;
+}
+
+.hero-bottom,
+.faculty-stack,
+.faculty-stack article {
+  border-color: #cfd7df;
+}
+
+.hero-bottom p,
+.coordinate,
+.faculty-intro p,
+.faculty-stack small {
+  color: #5e6875;
+}
+
+.signal {
+  background: #fff;
+  color: #111827;
+}
+
+.signal-grid {
+  background: #d5dce5;
+  border-color: #d5dce5;
+}
+
+.signal-grid article {
+  background: #f4f7f8;
+  color: #111827;
+}
+
+.signal-grid article.blue {
+  background: #dfe5ff;
+  color: #111827;
+}
+
+.signal-grid article.lime {
+  background: #e5f5b8;
+  color: #111827;
+}
+
+.faculty {
+  background: #f7f9fb;
+  color: #111827;
+}
+
+.stats {
+  background: #e5f5b8;
+  color: #111827;
+}
+
+.next {
+  background: #e3e8ff;
+  color: #111827;
+}
+
+.next-ring {
+  border-color: #7d8cc8;
+}
+
+.next-ring::after {
+  border-color: #7da500;
+}
+
+.next-ring b {
+  color: #4e7100;
+}
+
+footer {
+  background: #f2f5f6;
+  color: #111827;
+  border-top-color: #d5dce5;
+}
+
+.concept-switcher {
+  border: 1px solid #d5dce5;
+}

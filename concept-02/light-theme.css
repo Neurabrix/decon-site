@@ -1,0 +1,96 @@
+/* Light clinical theme: retain the utility-first hierarchy on a calm, bright canvas. */
+body {
+  background: #fbfcfa;
+  color: var(--ink);
+}
+
+.topline {
+  background: #e5f2c8;
+  color: #173b35;
+}
+
+header {
+  background: rgba(255, 255, 255, 0.97);
+  border-bottom-color: #d8e3e1;
+  color: var(--ink);
+}
+
+.brand,
+header nav a {
+  color: #173b35;
+}
+
+.brand i,
+.kicker,
+.hero h1 span {
+  color: #23776c;
+}
+
+.hero {
+  background: linear-gradient(90deg, rgba(250, 252, 249, 0.98) 8%, rgba(250, 252, 249, 0.91) 58%, rgba(250, 252, 249, 0.42)), url('../assets/images/decon-gallery-06.jpg') center/cover;
+  color: var(--ink);
+}
+
+.hero-content > p:not(.kicker),
+.abstracts > div > p:not(.kicker) {
+  color: #536b70;
+}
+
+.text-link {
+  color: #173b35;
+}
+
+.abstracts {
+  background: #e8f2f4;
+  color: var(--ink);
+}
+
+.status {
+  border-color: #adc8cd;
+}
+
+.status span {
+  color: #23776c;
+}
+
+.contact {
+  background: #f0f5df;
+  color: var(--ink);
+  border: 1px solid #d8e2bd;
+}
+
+.contact small {
+  color: #5e706e;
+}
+
+footer {
+  background: #f5f8f5;
+  color: #536b70;
+  border-top: 1px solid #d8e3e1;
+}
+
+footer a {
+  color: var(--ink);
+}
+
+footer > small {
+  border-top-color: #d8e3e1;
+}
+
+.tracks p {
+  color: #596968;
+}
+
+.numbers span {
+  color: #4f646b;
+}
+
+.travel-grid p {
+  color: #5d6f76;
+}
+
+@media (max-width: 900px) {
+  header nav {
+    background: #fff;
+  }
+}

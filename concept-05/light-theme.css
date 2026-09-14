@@ -1,0 +1,74 @@
+/* Light clinical theme: keep the role-guided personality while removing dark canvases. */
+.hero {
+  background: linear-gradient(100deg, rgba(255, 249, 241, 0.98) 0 54%, rgba(255, 249, 241, 0.7) 78%, rgba(255, 249, 241, 0.28)), url('../assets/images/decon-bg-03.jpg') center/cover;
+  color: var(--ink);
+}
+
+.hero h1 em {
+  color: var(--violet);
+}
+
+.hero-copy > p:not(.eyebrow) {
+  color: var(--muted);
+}
+
+.secondary {
+  border-color: #8d7c8d;
+  color: var(--aub);
+}
+
+.programme {
+  background: #f0e8f2;
+  color: var(--ink);
+}
+
+.light .eyebrow,
+.track-list article > span {
+  color: var(--violet);
+}
+
+.track-list,
+.track-list article {
+  border-color: #cdbdd0;
+}
+
+.track-list p {
+  color: var(--muted);
+}
+
+.track-list b {
+  color: #607219;
+}
+
+.programme-link {
+  color: var(--aub);
+}
+
+.closing {
+  background: #f7c7be;
+  color: var(--aub);
+}
+
+footer {
+  background: #f2eaef;
+  color: #625667;
+  border-top: 1px solid #d9ccd8;
+}
+
+footer a {
+  color: var(--aub);
+}
+
+footer small {
+  border-top-color: #d9ccd8;
+}
+
+.eyebrow,
+.brand i,
+.visit-links span {
+  color: #a63d34;
+}
+
+.track-list b {
+  color: #566812;
+}

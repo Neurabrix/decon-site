@@ -1,0 +1,70 @@
+/* Light clinical theme: preserve the conventional congress structure with lighter trust cues. */
+:root {
+  --teal: #08716f;
+}
+
+.utility {
+  background: #e7f1f4;
+  color: #385764;
+}
+
+.utility a {
+  color: var(--navy);
+}
+
+.hero-shade {
+  background: linear-gradient(90deg, rgba(249, 252, 252, 0.97) 0%, rgba(249, 252, 252, 0.84) 50%, rgba(249, 252, 252, 0.18) 82%);
+}
+
+.hero-copy {
+  color: var(--ink);
+}
+
+.kicker {
+  color: var(--teal);
+}
+
+.hero-copy > p:not(.kicker) {
+  color: #4f6872;
+}
+
+.secondary {
+  border-color: #748c94;
+  color: var(--navy);
+}
+
+.highlights {
+  background: #e4f2f0;
+  color: var(--ink);
+}
+
+.highlights .eyebrow,
+.register .eyebrow {
+  color: var(--teal);
+}
+
+.register {
+  background: #d8efec;
+  color: var(--ink);
+  border-top: 1px solid #bdded9;
+}
+
+.register .light {
+  background: var(--teal);
+  color: #fff;
+}
+
+footer {
+  background: #edf4f5;
+  color: #526b75;
+  border-top: 1px solid var(--line);
+}
+
+footer b,
+footer a {
+  color: var(--navy);
+}
+
+footer small {
+  border-top-color: #cadadd;
+}

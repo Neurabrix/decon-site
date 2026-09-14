@@ -1,0 +1,45 @@
+/* Light clinical theme: preserve the editorial voice with paper, blush and white surfaces. */
+:root {
+  --red: #a92b20;
+}
+
+.manifesto {
+  background: #e8e1d4;
+  color: var(--ink);
+}
+
+.manifesto-copy p {
+  color: #5f5a50;
+}
+
+.voices {
+  background: #e7e0d5;
+}
+
+.venue {
+  background: #f5b4a8;
+  color: var(--ink);
+}
+
+.venue-copy {
+  background: #f8f1e7;
+  color: var(--ink);
+}
+
+.venue-copy p:not(.index) {
+  color: #5f5a50;
+}
+
+.interest > a {
+  color: #fff;
+}
+
+.concept-switcher a.active {
+  color: #fff;
+}
+
+.concept-switcher {
+  background: #fff;
+  color: var(--ink);
+  border: 1px solid var(--rule);
+}
